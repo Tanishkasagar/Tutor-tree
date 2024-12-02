@@ -1,0 +1,17 @@
+/* Importing the 'Outfit' font from Google Fonts, with a weight range from 100 to 900 */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Applying the 'Outfit' font to all elements in the document */
+*{
+    font-family: Outfit;
+}
+
+/* Hides the scrollbar for the entire webpage */
+::-webkit-scrollbar{
+    display: none;
+}
